@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"learning_go/lib"
+)
 
 func main() {
-	fmt.Println("meow")
+	fmt.Println()
+	lib.Test()
 }
