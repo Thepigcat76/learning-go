@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println()
-	lib.Test()
+	fmt.Println("hi")
+	lib.Input("Your age: ", "An error occured while reading the input, please try again", "Your age is: ")
 }
